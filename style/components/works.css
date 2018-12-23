@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,800');
+@import url('https://fonts.googleapis.com/css?family=Staatliches');
+/*
+font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Staatliches', cursive;
+*/
+
+.works {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding-top: 100px;
+}
+
+.text {
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.title {
+	font-family: 'Staatliches', cursive;
+	font-size: 30px;
+	letter-spacing: 1px;
+	margin-bottom: 10px;
+}
+
+.subtext {
+	font-family: 'Open Sans', sans-serif;
+	margin-bottom: 20px;
+}
+
+.h_line {
+	width: 10%;
+	height: 2px;
+	background-color: #000;
+	margin-bottom: 60px;
+}
+
+.portfolio {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.portfolio div {
+	width: calc(100%/5);
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+.portfolio img {
+	width: 100%;
+}
