@@ -1,0 +1,34 @@
+
+footer {
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	padding: 20px 50px;
+}
+
+.footer_left {
+	display: flex;
+	align-items: center;
+}
+
+.footer_left .subtext, .footer_right .subtext {
+	margin-bottom: 0;
+	font-size: 14px;
+	margin: 20px;
+}
+
+.footer_right {
+	display: flex;
+	align-items: center;
+}
+
+.icons a {
+	margin-right: 5px;
+}
+
+
+
+
+
+
+

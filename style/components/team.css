@@ -1,0 +1,75 @@
+
+.team {
+	width: 100%;
+	background-image: url('../../images/team bg.png');
+	background-position: center;
+	padding: 68px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.team .text {
+	color: #fff;
+	position: relative;
+}
+
+.people {
+	display: flex;
+}
+
+.team_block {
+	position: relative;
+	width: 20%;
+	background-color: #c8cccf;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 20px;
+}
+
+.team_block img {
+	width: 100%;
+}
+
+.name {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	font-size: 14px;
+	margin-top: 20px;
+	margin-bottom: 5px;
+}
+
+.duties {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	margin-bottom: 10px;
+}
+
+.social {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 15px;
+}
+
+.social img {
+	margin: 2px;
+}
+
+.team button {
+	background: none;
+	border: 2px solid #fff;
+	border-radius: 35%;
+	color: #fff;
+	padding: 20px;
+}
+
+
+
+
+
+
+
+
