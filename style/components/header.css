@@ -26,7 +26,7 @@ nav {
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
-	color: #fff;
+	color: #bcbec0;
 }
 
 .menu p {
@@ -38,7 +38,7 @@ nav {
 	flex-direction: column;
 	align-items: center;
 	justify-content:  center;
-	color: #fff;
+	color: #bcbec0;
 	text-align: center;
 	position: relative;
 }
@@ -58,7 +58,7 @@ nav {
 	width: 140px;
 	font-family: 'Montserrat', sans-serif;
 	padding: 15px ;
-	border: 2px solid #fff;
+	border: 2px solid #bcbec0;
 	border-radius: 45%;
 	text-align: center;
 	margin-bottom: 40px;
@@ -67,7 +67,7 @@ nav {
 .arrow {
 	width: 50px;
 	height: 50px;
-	border: 2px solid #fff;
+	border: 2px solid #bcbec0;
 	border-radius: 50%;
 	display: flex;
 	justify-content: center;
@@ -83,7 +83,7 @@ nav {
 .v_line {
 	width: 1px;
 	height: 100px;
-	background-color: #fff;
+	background-color: #bcbec0;
 	margin: 0 auto;
 	position: relative;
 }

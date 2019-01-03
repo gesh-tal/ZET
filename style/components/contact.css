@@ -1,27 +1,54 @@
 
 .contact {
+	width: 100%;
+	display: flex;
 
 }
 
 .map {
-
+	width: 50%;
+	background-image: url('../../images/maps bg.png');
+	background-size: cover;
+	background-position: center;
 }
 
 .mail {
-
+	width: 50%;
+	background-image: url('../../images/form bg.png');
+	background-size: cover;
+	background-position: center;
+	color: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 50px;
 }
 
 .form_block {
-
+	display: flex;
+	align-items: center;
+	margin: 20px;
 }
 
 .form_text {
-
+	margin-right: 30px;
 }
 
-input {
-	
+.form_block input, .form_block textarea {
+	width: 250px;
+	background: none;
+	border: 1px solid #fff;
+	padding: 10px;
 }
+
+.mail_button {
+	background: none;
+	color: #fff;
+	padding: 10px 25px;
+	position: relative;
+	left: 270px;
+}
+
 
 
 

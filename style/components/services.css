@@ -29,7 +29,7 @@
 .icon_bg {
 	width: 80px;
 	height: 80px;
-	background-color: #2c3540;
+	background: radial-gradient(40% 40%, #fff, #2a343e);
 	border-radius: 50%;
 	display: flex;
 	justify-content: center;
@@ -39,7 +39,6 @@
 
 .icon_bg img {
 	width: 40%;
-	
 }
 
 h4 {
