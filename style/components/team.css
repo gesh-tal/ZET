@@ -8,6 +8,12 @@
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
+	position: relative;
+}
+
+.team .overlay {
+	width: 100%;
+	height: 100%;
 }
 
 .team .text {
@@ -15,17 +21,23 @@
 	position: relative;
 }
 
+.team .h_line {
+	background-color: #fff;
+}
+
 .people {
 	display: flex;
+	justify-content: center;
 }
 
 .team_block {
 	position: relative;
-	width: 20%;
+	width: 18%;
 	background-color: #c8cccf;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	justify-content: center;
 	margin: 20px;
 }
 
@@ -54,17 +66,21 @@
 	margin-bottom: 15px;
 }
 
-.social img {
-	margin: 2px;
+.social a {
+	margin: 5px 2px;
 }
 
 .team button {
 	background: none;
 	border: 2px solid #fff;
-	border-radius: 35%;
+	border-radius: 35px;
 	color: #fff;
-	padding: 20px;
+	padding: 10px 15px;
+	margin-top: 40px;
+	margin-bottom: 50px;
+	position: relative;
 }
+
 
 
 

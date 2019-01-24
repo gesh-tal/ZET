@@ -22,12 +22,15 @@
 	justify-content: center;
 	align-items: center;
 	padding: 50px;
+	position: relative;
 }
 
 .form_block {
 	display: flex;
 	align-items: center;
+	justify-content: space-between;
 	margin: 20px;
+	position: relative;
 }
 
 .form_text {
@@ -39,6 +42,11 @@
 	background: none;
 	border: 1px solid #fff;
 	padding: 10px;
+	color: #fff;
+}
+
+.form_block textarea {
+	resize: none;
 }
 
 .mail_button {
