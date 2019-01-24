@@ -1,0 +1,12 @@
+.brands {
+	width: 100%;
+	background-color: #f5f5f5;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/*padding: 40px;*/
+}
+
+.brands img {
+	margin: 20px 30px;
+}

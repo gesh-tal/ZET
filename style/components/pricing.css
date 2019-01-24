@@ -1,34 +1,84 @@
 
 .pricing {
-
+	width: 100%;
 }
 
 .pricing .text {
+	padding-top: 80px;
+}
 
+.pricing .h_line {
+	width: 4%;
 }
 
 .price_block {
-
+	width: 30%;
+	border: 1px solid lightgray;
 }
 
 .pack {
-
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	/*align-self: center;*/
 }
 
-.price {
+.pack .name {
+	margin-top: 40px;
+	font-size: 20px;
+}
 
+.price_block2 .pack .name {
+	font-size: 20px;
+	margin-top: 50px;
+}
+
+.cost {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 80px;
+}
+
+#price {
+	font-size: 40px;
+	margin-top: 5px;
 }
 
 .month {
+	width: 100%;
+	text-align: center;
+	font-size: 13px;
+	padding-bottom: 40px;
+	margin-bottom: 40px;
+	border-bottom: 1px solid lightgray;
+}
 
+.description {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
 .pack button {
+	margin-top: 40px;
+	background: none;
+	border: none;
+	outline: none;
+}
 
+.pack .talk {
+	background-color: #2a343e;
+	color: #fff;
+	width: 110px;
 }
 
 .price_block2 {
-
+	border-top: none;
+	border-top: 5px solid #2a343e;
+	/*padding-top: 30px;*/
 }
 
 
